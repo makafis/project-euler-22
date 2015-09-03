@@ -1,7 +1,5 @@
 require 'pry'
-
 alphabet = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
-
 #open the file and store in array
 array = File.read("./p022_names.txt").split(",").map(&:strip)
 #get rid of the extra quotes and sort alphabetically
